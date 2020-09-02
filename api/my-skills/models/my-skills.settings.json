@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_skills",
+  "info": {
+    "name": "MySkills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "skills": {
+      "type": "json"
+    }
+  }
+}
